@@ -1,0 +1,22 @@
+{
+    "name": "usdao/microb",
+    "description": "简单易用的B2C商城",
+    "type": "framework",
+    "keywords": ["framework","thinkphp","ORM","B2C","商城","微信"],
+    "homepage": "http://usdao.cn/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chengyuanlong",
+            "email": "php@rediii.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "snowair/think-phpunit": "dev-master"
+    },
+    "autoload":{
+        "classmap" : ["Application","ThinkPHP/Library"]
+    },
+    "minimum-stability": "dev"
+}
